@@ -1,0 +1,12 @@
+Microsoft.EntityFrameworkCore.Sqlite
+Microsoft.EntityFrameworkCore
+
+создадим класс ApplicationContext наследуемый от DbContext с реализацией отношения между классами и их свойствами  и таблицами и их столбцами с помощью fluent API в методе OnModelCreating.
+установить коннект с помощью метода OnConfiguring 
+
+
+подключим System.ComponentModel.DataAnnotations для использования аннотаций - нстройки классов сущностей с помощью аттрибутов 
+
+
+
+создать сущности 
